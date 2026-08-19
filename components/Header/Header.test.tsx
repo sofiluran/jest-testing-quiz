@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import Header from "@/components/Header";
+import Header from ".";
 
 describe("The Header", () => {
   test("renders a header", () => {
@@ -14,7 +14,7 @@ describe("The Header", () => {
   });
   test("displays the project title", () => {
     render(<Header />);
-    const pageTitle = screen.getByText(/the jason mraz quiz/i);
+    const pageTitle = screen.getByText(/IKEA, Rock band or Pokémon/i);
     expect(pageTitle).toBeInTheDocument();
   });
 });
