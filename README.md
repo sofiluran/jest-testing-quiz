@@ -2,7 +2,9 @@
 
 This quiz is originally about Jazon Mraz. I changed it to IKEA, Rock Band or Pokémon!
 
+The Testing Claudia wrote was easy to follow! Only good things to say!
 
+---
 ### Features
 
 - Name input before starting
